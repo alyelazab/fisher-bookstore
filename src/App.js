@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-
-
+import { Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default class App extends Component{
   render(){
@@ -9,7 +9,7 @@ export default class App extends Component{
       <div className= "App container">
         <Navbar bg= "light" expand= "lg">
           <Navbar.Brand>
-            <link to ="/">Fisher Bookstore</link>
+            <Link to ="/">Fisher Bookstore</Link>
           </Navbar.Brand>
         </Navbar>
       </div>
